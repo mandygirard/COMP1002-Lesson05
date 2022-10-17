@@ -3,45 +3,13 @@
 /* End of Reset */
 
 
-/* Step 3: Import the Fonts */
 
 
 @import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Indie+Flower&family=Quicksand&family=Satisfy&display=swap');
 
-/* End of Fonts */
-* 
-    /* outline: 1px dashed #ccc */
 
-
-
-/* Step 4: Setup the Defaults */
-/*html, body, main, header, section {
-    height: 100%;
-    scroll-behavior: smooth;
-}
-
-p {
-    margin: 1.2em;
-    line-height: 1.5em;
-}
-
-strong {
-    font-weight: bold;
-}
-
-em {
-font-size: italic;
-}
-body {
-    font-family: 'Satisfy', cursive; 
-}
-
-/* End of Defaults */
-
-
-/* Step 5: Design the Header */
 header {
-    background-image: url(./gryffyn-m-2v5xaXiZI3A-unsplash.jpg);
+    background-image: url(./gryffyn-m-2v5xaXiZI3A-unsplash.jpg); /* image from unsplash - https://unsplash.com/@botanicalnature */
     background-size: cover;
     background-position: center;
     height: 288px;
@@ -112,11 +80,11 @@ margin-right: 20px;
 
 #middle-p {
     color: #023020;
-    background-image: url(./engin-akyurt-YouWp12gBCQ-unsplash.jpg);
+    background-image: url(./cloth-g05cad76c9_1920.jpg); /*image from bixabay - Image by <a href="https://pixabay.com/users/songpon-2679154/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4669151">songpon pirom</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4669151">Pixabay</a>  */
 }
 
 p {
-    text-indent: 10%;
+    text-indent: 5%;
 line-height: 1.2;
 }
 
