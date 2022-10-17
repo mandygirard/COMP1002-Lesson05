@@ -120,25 +120,38 @@ p {
 line-height: 1.2;
 }
 
+#moving-div{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 25px;
+    
+}
+
+/* this code is from text-color-animation : https://codepen.io/alvarotrigo/pen/PoKMyNO */
+
+
 #animate-charcter{
+    font-family: 'Quicksand', sans-serif;
  background-image: linear-gradient(
     -225deg,
-    #231557 0%,
-    #44107a 29%,
-    #ff1361 67%,
-    #fff800 100%
+    #023020 0%,
+    #278921 29%,
+    #fdffce 67%,
+    #65081f 100%
   );
   background-size: auto auto;
   background-clip: border-box;
   background-size: 200% auto;
-  color: #fff;
+  color: #FDFFCE;
   background-clip: text;
   text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 2s linear infinite;
   display: inline-block;
-      font-size: 190px;
+      font-size: 60px;
 }
 
 @keyframes textclip {
@@ -149,148 +162,8 @@ line-height: 1.2;
 footer {
     color: #023020;
     font-family: 'Satisfy', cursive;
-    font-size: 16;
+    font-size: 20;
     margin: 25px;
 
 }
 
-/* End of Header */
-
-
-/* Step 6: Define the Nav */
-/* #main-nav {
-    width: 100%;
-    height: 64px;
-    background-color: rgba(0, 0, 0, .5);
-}
-#main-nav ul {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-}
-#main-nav ul li {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#main-nav ul li a {
-    padding: 1.5em;
-    text-decoration: none;
-    color: #fff;
-    transition: 0.5s;
-}
-
-#main-nav ul li a:hover {
-    background-color:rgba(255, 255, 255, 0.25) ;
-    transition: 0.5s;
-} */
-
-/* End of Nav */
-
-
-/* Step 7: Define the Section Defaults */
-
-/* End of Section Defaults */
- /*.main-section >h3 {
-    font-size: 2.1em;
-    font-weight: bold;
-    text-align: center;
-    padding: 1em;
-    background-color: #333;
-    color: #fff;
-    margin-bottom: 2em;
-} */
-/*.main-section:nth-child(odd) {
-    background-color: aliceblue;
-}
-.main-section:nth-child(even) {
-    background-color: #ccc;
-}
-/* Step 8: Design Section 1 */
-
-
-/* End of Section 1 */
-
-
-
-
-/* Step 9: Design Section 2 */
-
-/*
-figure > img {
-    width: 100%;
-}
-
-cite {
-    display: block;
-    background-color: #333;
-    color: #fff;
-    padding: 0.5em;
-}
-
-cite > a {
-    color: #ccc;
-    text-decoration: none;
-}
-
-cite > a:hover {
-    color: #fff;
-}
-/* End of Section 2 */
-
-
-/* Step 10: Design Section 3 */
-
-/* End of Section 3 */
-
-
-/* Step 11: Design Section 4 */
-/*#skills {
-    width: 50%;
-    margin: 0 auto;
-}
-
-#skills > li {
-    width: 100%;
-    background-color: #333;
-    border-radius: 20px;
-    margin-bottom: 1em;
-    height: 40px;
-    display: flex;
-    overflow: hidden;
-}
-
-#skills > li > span {
-    display: flex;
-    align-items: center;
-    background-color:tomato;
-    content: "";
-    padding: 0 1em;
-    color: #fff;
-}
-
-#html {
-    width: 50%;
-}
-
-#css {
-    width: 10%;
-}
-#javascript {
-    width: 0%;
-}
-#c-sharp {
-    width:25% 
-}
-
-
-
-
-
-
-
-
-
-
-/* End of Section 4 */
