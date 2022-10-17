@@ -115,6 +115,10 @@ margin-right: 20px;
     background-image: url(./engin-akyurt-YouWp12gBCQ-unsplash.jpg);
 }
 
+p {
+    text-indent: 10%;
+line-height: 1.2;
+}
 footer {
     color: #023020;
     font-family: 'Satisfy', cursive;
